@@ -1,0 +1,118 @@
+$color-black: black;
+
+$font-family-body: "Helvetica", sans-serif;
+body{
+    padding: 0px;
+    margin: 0;
+    font-size: 100%;
+    font-family: $font-family-body; 
+    color: rgb(32, 73, 207);
+    background-color: silver;
+}
+
+p{
+    color: $color-black
+}   
+h1{
+    color: black;
+    text-align: center;
+}
+ul.menu{
+    display: inline;
+    text-align: center;
+}
+#linkBtn{
+    text-align: center;
+
+    position: relative;
+}
+main.container{
+    align-items: center;
+    max-width: 200px;
+    color: black;
+}
+#inputLabel{
+    color:rgb(15, 54, 126);
+}
+#form-new{
+    color: rgb(151, 21, 21);
+    text-align: center;
+}
+#name{
+    color: black;
+}
+#inputLabel{
+    text-align: center;
+}
+#rowId{
+    text-align: center;
+}
+#singTitle{
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+}
+#image{
+    text-align: center;
+    border-radius: 50%;
+}
+form.card{
+    background-color: rgb(113, 158, 115);
+}
+#backG{
+    max-width: 180px;
+    text-align: center;
+    background-color: rgb(84, 219, 174);
+}
+#messages,#profile,#login{
+    text-align: center;
+}
+img.user{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;    
+}
+.user-name{
+    color: black;
+}
+#message-list{
+    text-align: left;
+    margin-right: 10%;
+}
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+#profile{
+    img.user{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;    
+    }
+
+    h5{
+        color: green;
+        font-size: 23px;
+    }
+}
+.container{
+    
+    text-align: center;
+    #message-list{
+        margin-left: 5cm;
+        color: rgb(52, 52, 209);
+    }
+    h1{
+        color: blue;
+    }
+    h2{
+        color:rgb(114, 9, 40);
+        text-align: center;
+        font-size: 28px;
+    }
+    #writing-message{
+        text-align: left;
+        margin-left: 10.5cm;
+        color: rgb(66, 59, 59);
+    }
+}

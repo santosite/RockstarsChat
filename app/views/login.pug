@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div#login
+    div.container
+      div.row
+        form
+          fieldset
+            a.btn.btn-spotify(href="/auth/spotify")
+              i.icon.fab.fa-spotify
+              span= "Login with Spotify"
